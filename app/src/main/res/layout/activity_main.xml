@@ -10,8 +10,42 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ua.com.ics_market.easyscale.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="IP-address" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GET IP ACCESS POINT" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GET WEIGHT" />
+
+    </LinearLayout>
 </RelativeLayout>

@@ -27,7 +27,7 @@
             android:layout_gravity="center_vertical"
             android:gravity="end"
             android:textAlignment="gravity"
-            android:textSize="40sp"
+            android:textSize="80sp"
             android:textColor="#f91513ab"
             android:textStyle="bold"
             android:text="ІКС-У"/>
@@ -35,22 +35,22 @@
         <TextView
             android:id="@+id/display"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="200dp"
             android:background="@drawable/rectangleroundedcorners"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
             android:layout_gravity="center_vertical"
             android:gravity="center"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:cursorVisible="false"
             android:enabled="false"
             android:textIsSelectable="false"
             android:text="0.000"
             android:textAlignment="gravity"
             android:fontFamily="sans-serif"
-            android:textSize="60sp"
+            android:textSize="140sp"
             android:textStyle="bold"
             android:textColor="@android:color/black" />
 
@@ -58,52 +58,37 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="60dp"
             android:layout_gravity="center_vertical">
 
             <Button
                 android:id="@+id/btnPower"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center_horizontal|left"
-                android:text="T"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                android:textColor="#7F000000"
                 android:background="@drawable/ellipse_button">
              </Button>
 
             <Button
                 android:id="@+id/btnZero"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center_horizontal|center"
                 android:background="@drawable/ellipse_button">
             </Button>
 
             <Button
                 android:id="@+id/btnTare"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center_horizontal|right"
                 android:background="@drawable/ellipse_button">
             </Button>
 
         </FrameLayout>
-
-        <Button
-            android:id="@+id/btnCalc"
-            android:clickable="true"
-            android:background="@android:color/holo_blue_light"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:gravity="center_vertical|right"
-            android:textSize="15sp"
-            android:textColor="#f91513ab"
-            android:text="КАЛЬКУЛЯТОР >   " />
 
 
         <TextView

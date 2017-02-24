@@ -72,7 +72,7 @@
                 android:text="T"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                android:textColor="#7F000000"
+                android:textColor="#FF000000"
                 android:background="@drawable/ellipse_button">
              </Button>
 
@@ -104,7 +104,6 @@
             android:textSize="15sp"
             android:textColor="#f91513ab"
             android:text="КАЛЬКУЛЯТОР >   " />
-
 
         <TextView
             android:id="@+id/tv1"
